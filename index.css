@@ -1,6 +1,8 @@
+/* general tag styles */
+
 body {
     background-color: black;
-    color: white;
+    color: cyan;
     font-family: "Helvetica", sans-serif;
 }
 
@@ -8,6 +10,44 @@ h1 {
     font-weight: lighter;
     text-align: center;
 }
+
+
+/* table styles */
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid cyan;
+    padding: 15px;
+    text-align: center;
+}
+
+
+/* hyperlink styles */
+
+a:link {
+    color: lightblue;
+}
+a:hover {
+    color: lightyellow;
+}
+a:active {
+    color: lightgreen;
+}
+a:visited {
+    color: darkblue;
+}
+
+
+/* class styles */
+a.imgLink {
+    text-decoration: none;
+}
+
+
+/* specific ID styles */
 
 #videoP {
     text-align: center;
