@@ -37,7 +37,7 @@ a:active {
     color: lightgreen;
 }
 a:visited {
-    color: darkblue;
+    color: gray;
 }
 
 
@@ -51,4 +51,8 @@ a.imgLink {
 
 #videoP {
     text-align: center;
+}
+
+#titleCard {
+    border: 1px solid darkgray;
 }
